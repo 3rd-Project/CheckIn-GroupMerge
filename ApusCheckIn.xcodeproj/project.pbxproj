@@ -22,7 +22,6 @@
 		82DC443727BE0757007D8684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DC443627BE0757007D8684 /* Assets.xcassets */; };
 		82DC443A27BE0757007D8684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DC443927BE0757007D8684 /* Preview Assets.xcassets */; };
 		82DC444127BE0905007D8684 /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC444027BE0905007D8684 /* FrontView.swift */; };
-		95822C2E28126C75005355D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95822C2D28126C74005355D2 /* GoogleService-Info.plist */; };
 		959CC671281A537B00CCCE52 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CC670281A537B00CCCE52 /* MenuView.swift */; };
 		9BFA6F3D27C39DB100681570 /* UUIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA6F3C27C39DB100681570 /* UUIDManager.swift */; };
 		CC1A8B5B27C4B4D90006EA0A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CC1A8B5A27C4B4D90006EA0A /* FirebaseAnalytics */; };
@@ -51,7 +50,6 @@
 		82DC443627BE0757007D8684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DC443927BE0757007D8684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82DC444027BE0905007D8684 /* FrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
-		95822C2D28126C74005355D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		959CC670281A537B00CCCE52 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9BFA6F3C27C39DB100681570 /* UUIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDManager.swift; sourceTree = "<group>"; };
 		CC709CCE27EC523900C54E10 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		82DC443127BE0756007D8684 /* ApusCheckIn */ = {
 			isa = PBXGroup;
 			children = (
-				95822C2D28126C74005355D2 /* GoogleService-Info.plist */,
 				CC709CCE27EC523900C54E10 /* FirebaseService.swift */,
 				825879F427BE2024008912B2 /* Info.plist */,
 				825879EB27BE12EC008912B2 /* Model */,
@@ -219,7 +216,6 @@
 			files = (
 				82DC443A27BE0757007D8684 /* Preview Assets.xcassets in Resources */,
 				82DC443727BE0757007D8684 /* Assets.xcassets in Resources */,
-				95822C2E28126C75005355D2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
