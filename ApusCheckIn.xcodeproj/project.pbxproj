@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09B34A7A2834B9630084A86E /* GroupAddModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B34A792834B9630084A86E /* GroupAddModalView.swift */; };
 		09B34A7C2834B9970084A86E /* GroupAddModalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B34A7B2834B9970084A86E /* GroupAddModalViewModel.swift */; };
+		09B34A7E2834C18F0084A86E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B34A7D2834C18E0084A86E /* GoogleService-Info.plist */; };
 		8215A7D527D079EF00058278 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215A7D427D079EF00058278 /* DateValue.swift */; };
 		8215A7D827D07A2600058278 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215A7D627D07A2600058278 /* CustomDatePicker.swift */; };
 		8215A7E027D07FE700058278 /* MyModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215A7DF27D07FE700058278 /* MyModalModel.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		09B34A792834B9630084A86E /* GroupAddModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAddModalView.swift; sourceTree = "<group>"; };
 		09B34A7B2834B9970084A86E /* GroupAddModalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAddModalViewModel.swift; sourceTree = "<group>"; };
+		09B34A7D2834C18E0084A86E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8215A7D427D079EF00058278 /* DateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		8215A7D627D07A2600058278 /* CustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		8215A7DF27D07FE700058278 /* MyModalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyModalModel.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				CC709CCE27EC523900C54E10 /* FirebaseService.swift */,
 				825879F427BE2024008912B2 /* Info.plist */,
+				09B34A7D2834C18E0084A86E /* GoogleService-Info.plist */,
 				825879EB27BE12EC008912B2 /* Model */,
 				825879E927BE12D4008912B2 /* View */,
 				825879EA27BE12DE008912B2 /* ViewModel */,
@@ -216,6 +219,7 @@
 			files = (
 				82DC443A27BE0757007D8684 /* Preview Assets.xcassets in Resources */,
 				82DC443727BE0757007D8684 /* Assets.xcassets in Resources */,
+				09B34A7E2834C18F0084A86E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
